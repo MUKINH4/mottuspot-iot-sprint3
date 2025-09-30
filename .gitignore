@@ -1,2 +1,2 @@
-__pycache/**
-motos.db
+/app/__pycache/**
+/app/motos.db

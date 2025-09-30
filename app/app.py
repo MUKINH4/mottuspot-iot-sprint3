@@ -13,7 +13,7 @@ MQTT_STATUS_TOPIC = "iot/mottuspot/status"
 def on_message(client, userdata, message):
     try:
         payload = json.loads(message.payload.decode())
-        print(f"📥 Status recebido do ESP32: {payload}")
+        print(f"Status recebido do ESP32: {payload}")
         
         placa = payload.get("placa")
         status = payload.get("status")
