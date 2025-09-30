@@ -1,2 +1,2 @@
-/app/__pycache/**
+/app/__pycache__/**
 /app/motos.db
